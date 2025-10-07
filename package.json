@@ -1,0 +1,30 @@
+{
+  "name": "project-store-sabzlearn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "ioredis": "^5.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.1",
+    "multer": "^2.0.2",
+    "nanoid": "^5.1.5",
+    "nodemon": "^3.1.10",
+    "swagger-ui-express": "^5.0.1",
+    "yup": "^1.7.0",
+    "zarinpal-checkout": "^0.3.0"
+  }
+}
